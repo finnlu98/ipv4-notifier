@@ -41,7 +41,7 @@ if (ipAddress) {
           from: process.env.EMAIL_FROM,
           to: process.env.EMAIL_TO,
           subject: "Sandviken-app address",
-          text: `Raspberry PI Entur-Sandviken, copy/paste the IP address in your browser: ${ipAddress}:3000`,
+          text: `Hey, my dear philosopher.\n\n🤖 Finn Bot here with crucial information ❤️\n\nRaspberry PI Entur-Sandviken, copy/paste the IP address in your browser: ${ipAddress}:3000\n\nxoxo`,
         };
   
         transporter.sendMail(mailOptions, (error, info) => {
